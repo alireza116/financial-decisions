@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alireza116/financial-decisions/issues"
   },
-  "homepage": "https://github.com/alireza116/financial-decisions#readme"
+  "homepage": "https://github.com/alireza116/financial-decisions#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
 }
