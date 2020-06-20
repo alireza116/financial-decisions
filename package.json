@@ -2,13 +2,18 @@
   "name": "financial-study",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "generateDataset.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alireza116/financial-decisions.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "csvtojson": "^2.0.10"
-  }
+  "bugs": {
+    "url": "https://github.com/alireza116/financial-decisions/issues"
+  },
+  "homepage": "https://github.com/alireza116/financial-decisions#readme"
 }

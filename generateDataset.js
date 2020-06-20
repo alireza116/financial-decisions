@@ -5,26 +5,6 @@ function getReturns() {
     const getObj = async () => {
       return csv().fromFile(csvPath);
     };
-    // csv()
-    //   .fromFile(csvPath)
-    //   .then((jsonObj) => {
-    //     jsonObj.forEach((obj) => {
-    //       Object.keys(obj).forEach(function (key) {
-    //         obj[key] = +obj[key];
-    //       });
-    //     });
-
-    //     let returns = this.bootstrap(columnName, n, jsonObj);
-    //     // console.log(returns);
-    //     let product = returns.reduce((product, value) => {
-    //       return product * value;
-    //     }, 1);
-    //     let geomMean = Math.pow(product, 1 / returns.length);
-    //     return {
-    //       returns: returns,
-    //       geomMean: geomMean,
-    //     };
-    //   });
     let jsonObj = await getObj();
     jsonObj.forEach((obj) => {
       Object.keys(obj).forEach(function (key) {
